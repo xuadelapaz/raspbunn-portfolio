@@ -1,31 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Simple Website</title>
-
-    <!-- Connect CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumi — Artist Commissions</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-    <video class="bg-video" autoplay muted loop playsinline>
-        <source src="gif_bg.mp4" type="video/mp4">
-    </video>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">✦</span> /portfolio</div>
+  </header>
 
-    <div class="container">
-        <h1>Welcome!</h1>
-
-        <p id="message">
-            Click the button below to interact with the website.
-        </p>
-
-        <button onclick="changeMessage()">
-            Click Me
-        </button>
+  <section class="cover">
+    <div class="cover-art">
+      <div class="spark s1">✦</div>
+      <div class="spark s2">✦</div>
+      <div class="character">
+        <div class="halo"></div>
+        <div class="hair"></div>
+        <div class="face">
+          <span class="eye left"></span>
+          <span class="eye right"></span>
+          <span class="mouth"></span>
+        </div>
+      </div>
+      <div class="ribbon"></div>
     </div>
+  </section>
 
-    <!-- Connect JavaScript -->
-    <script src="script.js"></script>
+  <main class="layout">
+    <aside class="profile">
+      <div class="profile-photo" id="profilePhoto">
+        <div class="mini-character">
+          <div class="mini-hair"></div>
+          <div class="mini-face"></div>
+          <div class="mini-body"></div>
+        </div>
+      </div>
 
+      <h1 id="profileName">lumiart</h1>
+      <p class="handle" id="profileHandle">@lumiart</p>
+
+      <div class="meta">⌖ Local time: 3:15 PM &nbsp; ◉ EN / TL</div>
+
+      <p class="bio" id="profileBio">
+        hi! I'm lumi and I'm a digital artist and character designer.
+      </p>
+      <a class="about page-link" href="about.html" data-page="about">About me ›</a>
+
+      <div class="socials">
+        <a class="page-link" href="about.html" data-page="about">About</a>
+        <a class="page-link" href="works.html" data-page="works">Works</a>
+        <a class="page-link" href="study-zone.html" data-page="study-zone">Study zone</a>
+        <a class="page-link" href="blogs.html" data-page="blogs">Blogs</a>
+      </div>
+    </aside>
+
+    <section class="content">
+      <nav class="tabs">
+        <button class="tab active" data-tab="commissions">Commissions <b>✓</b></button>
+        <button class="tab" data-tab="shop">Shop</button>
+        <button class="tab" data-tab="portfolio">Portfolio</button>
+        <button class="tab" data-tab="collection">Collection</button>
+      </nav>
+
+      <div class="rating">★ 5.0 <small>(1 review)</small> ›</div>
+
+      <div id="commissions" class="tab-panel active">
+        <article class="commission-card">
+          <div class="art-preview art-one">
+            <div class="portrait">
+              <div class="portrait-hair"></div>
+              <div class="portrait-face"><i></i><i></i></div>
+              <div class="portrait-shirt"></div>
+            </div>
+          </div>
+          <div class="card-info">
+            <button class="bookmark" title="Save commission">♡</button>
+            <h2>Anime Bust-up Commission</h2>
+            <div class="price">From ₱925.95</div>
+            <h4>Includes</h4>
+            <ul><li>Bust up rendered piece</li><li>High-resolution PNG</li></ul>
+            <h4>Details</h4>
+            <p>Stylized anime portrait with custom colors, expression and outfit details.</p>
+            <button class="request" data-name="Anime Bust-up Commission">Start request</button>
+          </div>
+        </article>
+
+        <article class="commission-card">
+          <div class="art-preview art-two">
+            <div class="portrait second">
+              <div class="portrait-hair"></div>
+              <div class="portrait-face"><i></i><i></i></div>
+              <div class="portrait-shirt"></div>
+            </div>
+          </div>
+          <div class="card-info">
+            <button class="bookmark" title="Save commission">♡</button>
+            <h2>Anime Half Body Commission</h2>
+            <div class="price">From ₱1,234.60</div>
+            <h4>Includes</h4>
+            <ul><li>Half-body rendered piece</li><li>High-resolution PNG</li></ul>
+            <h4>Details</h4>
+            <p>Detailed character illustration with a simple decorative background.</p>
+            <button class="request" data-name="Anime Half Body Commission">Start request</button>
+          </div>
+        </article>
+      </div>
+
+      <div id="shop" class="tab-panel">
+        <div class="empty-panel"><span>✦</span><h2>Shop</h2><p>Digital goods and art products will appear here.</p><button class="small-action" id="shopAction">Browse shop</button></div>
+      </div>
+      <div id="portfolio" class="tab-panel">
+        <div class="gallery">
+          <div class="gallery-item g1">✦</div><div class="gallery-item g2">♡</div><div class="gallery-item g3">☾</div>
+        </div>
+      </div>
+      <div id="collection" class="tab-panel">
+        <div class="empty-panel"><span>◈</span><h2>Collection</h2><p>Favorite artworks and saved pieces.</p><button class="small-action" id="collectionAction">View collection</button></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Commission modal -->
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="close" data-close="modal">×</button>
+      <div class="modal-icon">✦</div>
+      <h2>Start a commission request</h2>
+      <p id="modal-text">Tell the artist about your project.</p>
+      <textarea id="commissionDetails" placeholder="Describe your character, references, deadline, and any other details..."></textarea>
+      <button class="request send" id="sendRequest">Send request</button>
+    </div>
+  </div>
+
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
 </body>
 </html>
