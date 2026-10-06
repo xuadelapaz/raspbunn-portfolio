@@ -1,6 +1,5 @@
 
 function changeMessage() {
-    document.getElementById("message").innerHTML =
-        "You clicked the button! 🎉";
+    window.location.href = "portfolio.html";
 }
 
