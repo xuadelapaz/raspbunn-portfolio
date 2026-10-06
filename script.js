@@ -1,6 +1,23 @@
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".tab-panel");
 
+const philippinesTime = document.getElementById("philippinesTime");
+if (philippinesTime) {
+  const manilaClock = new Intl.DateTimeFormat("en-PH", {
+    timeZone: "Asia/Manila",
+    hour: "numeric",
+    minute: "2-digit"
+  });
+
+  const updatePhilippinesTime = () => {
+    const time = manilaClock.format(new Date());
+    if (philippinesTime.textContent !== time) philippinesTime.textContent = time;
+  };
+
+  updatePhilippinesTime();
+  setInterval(updatePhilippinesTime, 1000);
+}
+
 tabs.forEach(tab => {
   tab.addEventListener("click", () => {
     tabs.forEach(t => t.classList.remove("active"));
