@@ -196,14 +196,14 @@ a {
   height: 285px;
   margin-top: 0;
   overflow: hidden;
-  background: #9dc8db;
+  background: transparent;
 }
 
 .cover-art {
   position: relative;
   height: 100%;
   overflow: hidden;
-  background: radial-gradient(circle at 52% 45%, #d9f4f5 0 10%, #91d5e5 30%, #6d9fca 63%, #cf9e9c 100%);
+  background: transparent;
 }
 
 .cover-art::before,
