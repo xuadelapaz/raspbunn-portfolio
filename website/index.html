@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumi — Artist Commissions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="upload%20mo%20pics%20or%20gifs%20here/gif_bg.mp4" type="video/mp4" />
+  </video>
+
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">✦</span> /portfolio</div>
+  </header>
+
+  <section class="cover">
+    <div class="cover-art">
+      </div>
+      <div class="ribbon"></div>
+    </div>
+  </section>
+
+  <main class="layout">
+    <aside class="profile">
+   
+
+      <h1 id="profileName">Raspbunn</h1>
+      <p class="handle" id="profileHandle">@raspbunn</p>
+
+      <div class="meta">⌖ Manila Time: <span id="philippinesTime"></span><br /><span>GMT+8</span> &nbsp; ◉ EN / TL</div>
+
+      <p class="bio" id="profileBio">
+        Hi! I'm Xua and I'm a digital artist and character designer.
+      </p>
+      
+
+      <div class="socials">
+        <a class="page-link" href="about.html" data-page="Personal Biography
+        ">Personal Biography</a>
+        <a class="page-link" href="works.html" data-page="My Strengths and Weaknesses">My Strengths and Weaknesses</a>
+        <a class="page-link" href="study-zone.html" data-page="My Mission and Vision">My Mission and Vision</a>
+        <a class="page-link" href="blogs.html" data-page="My Philosophy">My Philosophy
+
+        </a>
+      </div>
+    </aside>
+
+    <section class="content">
+      <nav class="tabs">
+        <button class="tab active" data-tab="My Personal Biography">My Personal Biography <b>✓</b></button>
+        <button class="tab" data-tab="My Strengths and Weaknesses">My Strengths and Weaknesses</button>
+        <button class="tab" data-tab="My Mission and Vision">My Mission and Vision</button>
+        <button class="tab" data-tab="My Philosophy">My Philosophy</button>
+      </nav>
+
+
+      <div id="commissions" class="tab-panel active">
+        <article class="commission-card">
+          
+          </div>
+          <div class="card-info">
+            <button class="bookmark" title="S...">♡</button>
+            <h2>...</h2>
+            <div class="price">...</div>
+            <h4>...</h4>
+            <ul><li>...</li><li>...</li></ul>
+            <h4>...</h4>
+            <p>...</p>
+            <button class="..." data-name="...">...</button>
+          </div>
+        </article>
+
+        <article class="commission-card">
+       
+          <div class="card-info">
+            <button class="bookmark" title="...">♡</button>
+            <h2>...</h2>
+            <div class="...">...</div>
+            <h4>...</h4>
+            <ul><li>...</li><li>...</li></ul>
+            <h4>...</h4>
+            <p>...</p>
+            <button class="request" data-name="...">...</button>
+          </div>
+        </article>
+      </div>
+
+      <div id="shop" class="tab-panel">
+        <div class="empty-panel"><span>✦</span><h2>My Strengths and Weaknesses</h2><p>...</p><button class="small-action" id="shopAction">Browse shop</button></div>
+      </div>
+      <div id="portfolio" class="tab-panel">
+        <div class="gallery">
+          <div class="gallery-item g1">✦</div><div class="gallery-item g2">♡</div><div class="gallery-item g3">☾</div>
+        </div>
+      </div>
+      <div id="collection" class="tab-panel">
+        <div class="empty-panel"><span>◈</span><h2>Collection</h2><p>Favorite artworks and saved pieces.</p><button class="small-action" id="collectionAction">View collection</button></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Commission modal -->
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="close" data-close="modal">×</button>
+      <div class="modal-icon">✦</div>
+      <h2>Start a commission request</h2>
+      <p id="modal-text">Tell the artist about your project.</p>
+      <textarea id="commissionDetails" placeholder="Describe your character, references, deadline, and any other details..."></textarea>
+      <button class="request send" id="sendRequest">Send request</button>
+    </div>
+  </div>
+
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
