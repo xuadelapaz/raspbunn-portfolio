@@ -81,16 +81,16 @@ clickBtn.addEventListener('click', ()=>{
     else{
         personal.classList.add('addInfo');
         clickBtn.classList.add('openBtn');
-        personal.innerHTML = `<h class="nameBrand color sizeText">Who I am</h>
+        personal.innerHTML = `<h class="nameBrand color sizeText">Get to know me ! :3</h>
 
-                            <p class="formatText">Preferred Names: Xua / Gauxy / Rasp</p>
+                            <p class="formatText">Preferred Names: Xua / Mango / Margaux</p>
                             <p class="formatText">Gender: She / They</p>
                             <p class="formatText">Sexual Orientation: Pansexual</p>
                             <p class="formatText">Birthday: January 25, 2007</p>
 
                             <h class="nameBrand color sizeText">What I'm Like</h>
 
-                            <p class="formatText">I'm a furry lover who loves furries specially yaoi furries</p>
+                            <p class="formatText">I'm a tradigital artist that loves to design people in pretty clothes :3</p>
 
                             <h class="nameBrand color sizeText">Main Interest</h>
 
