@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--Links-->
+    <link rel="stylesheet" href="Margaux_Website.css">
+    <link rel="stylesheet" href="margauxjs-css.css">
+    <script src="Margaux_Website.js" defer></script>
+    <script src="Sidebar.js" defer></script>
+
+    <title>Raspbunn</title>
+</head>
+<body>
+   
+     
+   
+    
+   <!-- Navigation bar -->
+    <nav class ="nav">
+        <div class="header">
+            <div class="navSection1"></div>
+            <div class="navSection2">
+                <button class="myWorksBtn" id="portfolioBtn">My Works</button>
+                <button class="myWorksBtn" id="aboutBtn">About Me</button>
+                    <!--Buttons Navigation-->
+                    <div class="iconWrapper"><button onclick="popUp()" class="icons"></button></div>
+                    
+                </div>
+        </div>
+          
+    
+    </nav>
+    
+    <!--Main Content-->
+    <div class="alerWrapper"> 
+        <div class="alert">
+          
+        </div>
+    </div>
+    <main class="main">
+      
+        <section class="logoWrap">
+            <article class="logoContainer">
+                <!-- <img class="logo" src="image/cinnamoroll.jpg" > -->
+                <h6 class="nameBrand sizeLogo">Raspbunn</h6>
+                
+            </article>
+        </section>
+         <section class=" mainWrap">
+                  <video class="background" width="100%"  autoplay loop muted playsinline disablePictureInPicture>
+             <source src="image/bg.mp4" type="video/mp4">
+             </video>
+           
+        <article class="mainArticle">
+             <!--Side Bar-->
+    <aside class="sidebar">
+        <div class="sidebarWrapper">
+              <div class="verticalLine"></div>
+                <div class="headTitleWrap">
+                    
+             <!-- 1st Section-->
+                    <div class="profileDisplay">
+                        <img class="profile" src="image/cat.jpg">
+                    </div>
+                    
+            <!-- 2nd Section -->
+                    <div class="secondWrap ">
+                        <h class="nameBrand color ">Raspbunn</h>
+                        <p class="fontReg textName">@rcspbunn</p>
+                        <div class="buttonGrid">
+                            <div><button class="longButton sizeBtn fontReg" id="ratesBtn">Rates</button></div>
+                            <div class="displayFlex"><button class="shortButton fontReg ">!</button></div>
+                        </div>
+                        <button class="longButton fontReg workBtn" id="termsBtn">Terms & Conditions</button>
+                        <div class="fontReg localTime" id="time"></div>
+                        <p class="fontReg">
+                            hi! I'm raspbunn or you can call me xua and I'm both a tradigital artist and character designer!
+                        </p>
+                    </div>
+            <!--3rd Section-->
+                    <div class="channelsWrap">
+                        <a class= "blank" href="https://www.tiktok.com/@rcspbunn"><svg class="svgIcon" fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="tiktok" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color"><path id="primary" d="M21,7V9a1,1,0,0,1-1,1,8,8,0,0,1-4-1.08V15.5A6.5,6.5,0,1,1,6.53,9.72a1,1,0,0,1,1.47.9v2.52a.92.92,0,0,1-.28.62,2.49,2.49,0,0,0,2,4.23A2.61,2.61,0,0,0,12,15.35V3a1,1,0,0,1,1-1h2.11a1,1,0,0,1,1,.83A4,4,0,0,0,20,6,1,1,0,0,1,21,7Z" style="fill: rgb(0, 0, 0);"></path></svg> TIKTOK</a>
+                        <a class="facebook blank" href="https://www.facebook.com/mbdelapaz"><svg class="svgIcon"  width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z" fill="#000000"/>
+                            </svg> FACEBOOK</a>
+                        <a class="instagram blank" href="https://www.instagram.com/raspbunnn"><svg class="svgIcon"  width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#0F0F0F"/>
+                            <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#0F0F0F"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#0F0F0F"/>
+                            </svg> INSTAGRAM</a>
+                        <a class="twitter blank" href="https://x.com/rcspbunn"><svg class="svgIcon"  width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8486 5.65845C13.1442 5.65845 11.7626 7.0401 11.7626 8.74446C11.7626 8.95304 11.7831 9.15581 11.822 9.35119C11.8846 9.66589 11.7924 9.99153 11.5741 10.2267C11.3558 10.4619 11.0379 10.578 10.7194 10.5389C8.51116 10.268 6.50248 9.35556 4.88498 7.9954C4.91649 8.59732 5.12515 9.23671 5.57799 9.90654L6.25677 10.9106L5.14211 11.3863L4.92704 11.4781C5.0869 11.6609 5.2791 11.8487 5.49369 12.0332C5.73717 12.2425 5.97247 12.4165 6.14726 12.5381C6.23408 12.5985 6.30452 12.645 6.35171 12.6755C6.37527 12.6907 6.39294 12.7018 6.40383 12.7086L6.41495 12.7155L6.41519 12.7157L6.41551 12.7159L6.41578 12.7161L6.41619 12.7163L6.41647 12.7165L7.96448 13.655L6.34397 14.4653C6.26374 14.5054 6.18367 14.5412 6.10393 14.573C6.42924 14.8471 6.82517 15.0995 7.2464 15.2986L8.63623 15.9556L7.47226 16.9598C6.8369 17.508 6.19778 17.9166 5.36946 18.1326C6.59681 18.7875 8.00315 19.1596 9.49941 19.1596C14.3045 19.1596 18.1746 15.325 18.1746 10.6256V10.1059L18.5998 9.80721C19.2636 9.34107 19.7329 8.71068 20.0689 7.99004H18.5398H17.9084L17.637 7.41994C17.1401 6.37633 16.0772 5.65845 14.8486 5.65845ZM3.56882 12.9581C3.38031 13.174 3.29093 13.4642 3.33193 13.7553C3.44474 14.5563 3.92441 15.2462 4.45444 15.7728C4.59838 15.9158 4.75232 16.0531 4.91396 16.184C4.88926 16.1909 4.86437 16.1975 4.83925 16.2038C4.35789 16.3243 3.70926 16.3494 2.62755 16.2434C2.20934 16.2024 1.81014 16.4273 1.62841 16.8062C1.44668 17.185 1.5212 17.6371 1.81492 17.9376C3.75693 19.9245 6.48413 21.1596 9.49941 21.1596C15.212 21.1596 19.8978 16.7239 20.1628 11.126C21.4521 10.0429 22.0976 8.57673 22.4458 7.24263C22.5241 6.94292 22.459 6.62387 22.2696 6.37873C22.0803 6.13359 21.788 5.99004 21.4783 5.99004H19.1247C18.2201 4.58853 16.6437 3.65845 14.8486 3.65845C12.1796 3.65845 9.99072 5.71435 9.7793 8.32892C7.91032 7.84456 6.2705 6.78758 5.05863 5.35408C4.83759 5.09261 4.49814 4.9624 4.15894 5.00897C3.81974 5.05554 3.52794 5.27241 3.38555 5.58378C2.78087 6.90597 2.66434 8.43104 3.34116 9.98046L3.10746 10.0802C2.64466 10.2777 2.40073 10.7884 2.5379 11.2725C2.72276 11.925 3.14129 12.5011 3.56882 12.9581Z" fill="#000000"/>
+                            </svg>TWITTER</a>
+
+                    </div>
+                </div>
+       </div>
+    </aside>
+
+        </article>
+        <article>
+            <div class="contentWrap">
+                <div class="contentContainer">
+                    <img class="contentImg" src="image/titleCover.jpg">
+                </div>
+                <div class="textContent">
+                    <h class="nameBrand color">Hi I'm Rasp / Bunn Bunn / Xua !!! </h>
+                    <p>
+                        I've been a tradigital since 2015. I've enjoy a lot painting and commisioned
+                        a lot of furry and yaoi fans. I'm quite delighted when they love my artworks;
+                        my paintings are like my baby, all of them are my masterpiece
+
+                    </p>
+                    <div class = "blockWrap">
+                        <h class="nameBrand color">About</h>
+                        <div class="seperation">
+                               
+                        <button class="longButton2" id="bio" >
+                            <p class="buttonDisplay">Personal Bio</p>
+                            <svg class="svgDisplay" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                        
+                        </button>
+                        </div>
+                        <!--Add-->
+                        <div class="addBio">
+                            
+                        </div>
+
+                    <div>
+                        <button class="longButton2" id="missionBtn">
+                            <p class="buttonDisplay ">My Mission and Vision</p>
+                            <svg class="svgDisplay" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                        </button>
+                    </div>
+                    <div >
+                        <!--Add-->
+                        <div class="addMission">
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <button class="longButton2" id="strengthBtn">
+                            <p class="buttonDisplay">Strength and Weaknesses</p>
+                            <svg class="svgDisplay" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                        </button>
+                    </div>
+                    <div>
+                        <!--Add-->
+                        <div class="addStrength">
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <button class="longButton2" id="philosophyBtn">
+                            <p class="buttonDisplay">My Philosophy</p>
+                            <svg class="svgDisplay" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                        </button>
+                    </div>
+                    <div>
+                         <!--Add-->
+                        <div class="addPhilosophy">
+                        
+                        </div>
+                    </div>
+                       
+
+                    </div>
+                    <div class="blockWrap">
+                        <h class="nameBrand color">Credentials</h>
+                        <div>
+                        <button class="longButton2" id="specializationsBtn">
+                            <p class="buttonDisplay">Specializations</p>
+                            <svg class="svgDisplay" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                        </button>
+                        </div>
+                        <div class="addSpecializations">
+                            <!--Add-->
+                            
+                        </div>
+
+                        <div>
+                        <button class="longButton2" id="academicBtn">
+                            <p class="buttonDisplay">Academic Background</p>
+                            <svg class="svgDisplay" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                        </button>
+                        </div>
+                        <div class="addAcademic">
+                            <!--Add-->
+                        
+                        </div>
+
+                        <div>
+                        <button class="longButton2" id="experienceBtn">
+                            <p class="buttonDisplay">Experience</p>
+                            <svg class="svgDisplay" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                        </button>
+                        </div>
+
+                        <div class="addExperience">
+                            <!--Add-->
+                            
+                        </div>
+
+                        <div>
+                        <button class="longButton2" id="testimonialsBtn" >
+                            <p class="buttonDisplay">Testimonials</p>
+                            <svg class="svgDisplay" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                        </button>
+                        </div>
+                        <div class ="addTestimonials">
+                            <!--Add-->
+                           
+                        </div>
+                    </div>
+        
+
+                </div>
+            </div>
+        </article>
+        </section>
+    </main>
+
+   
+    <!--Footer-->
+    <footer>
+
+    </footer>
+
+</body>
+</html>

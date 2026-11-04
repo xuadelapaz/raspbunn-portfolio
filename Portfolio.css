@@ -1,0 +1,98 @@
+:root{
+    --card-width: 300px;
+    --card-border-radius: 16px;
+    --row-increment: 10px;
+    --card-small: 26;
+    --card-medium : 33;
+    --card-large: 44;
+
+}
+
+.portfolioWrapper{
+    width: 100%;
+    
+}
+
+.portfolioSize{
+    font-size: 100px;
+}
+
+.indicator{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 100%;
+   
+}
+
+.portfolioSection1{
+    
+      margin: 10px 10px -10px 10px;
+      padding: 0px;
+}
+
+.portfolioSection1 ul li{
+    list-style: none;
+    
+    padding: 10px 10px 10px 10px;
+}
+.portfolioSection1 ul li a{
+    font-family: Roboto;
+    text-decoration: none;
+ 
+   
+}
+
+.active{
+    background: blueviolet;
+    padding: 10px 40px 10px 40px;
+    border-radius: 40px;
+
+}
+
+/*Images Content*/
+
+.imgFormat{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: var(--card-border-radius);
+    position: relative;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--card-width));
+    grid-auto-rows: var(--row-increment);
+    justify-content: center;
+
+    left: 0;
+ 
+    position: relative;
+
+    margin: 40px 20px 20px 20px;
+    padding: 0;
+    border: solid 1px black;
+    background-color: transparent;
+    border-radius: var(--card-border-radius);
+}
+
+.card{
+    padding: 0;
+    margin: 20px 15px;
+    border-radius: var(--card-border-radius);
+    background-color: red;
+}
+
+.cardSmall{
+    grid-row-end: span var(--card-small);
+
+}
+
+.cardMedium{
+    grid-row-end: span var(--card-medium);
+}
+
+.cardLarge{
+    grid-row-end: span var(--card-large);
+}
