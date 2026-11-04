@@ -177,7 +177,7 @@ clickBtn3.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Way of Living</h>
 
                             <p class="formatText">
-                                akdhakhdskasdj
+                                Don’t let every rejection drain your whole mood, if only you could count how close each rejections actually bring you to success, maybeit isn’t bad afterall.
                             </p>
                             `;
     }
