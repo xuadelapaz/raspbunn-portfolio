@@ -140,15 +140,6 @@ clickBtn2.addEventListener('click', ()=>{
         clickBtn2.classList.add('openBtn');
         strength.innerHTML = `<h class="nameBrand color sizeText">Personality Test (Big Five Inventory)</h>
 
-                            <p class="formatText">
-                                I'm quite a straightforward person and enjoys the company of my fellow friends
-                                —a enthusiastic person who loves to do the things I love and focus on the person who I love
-
-                            </p>
-                            <p class="formatText">Gender: She / They</p>
-                            <p class="formatText">Sexual Orientation: Pansexual</p>
-                            <p class="formatText">Birthday: January 25, 2007</p>
-
                             <h class="nameBrand color sizeText">My Character Strengths (VIA Strengths)</h>
 
 
