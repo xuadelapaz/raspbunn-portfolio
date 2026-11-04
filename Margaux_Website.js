@@ -94,11 +94,11 @@ clickBtn.addEventListener('click', ()=>{
 
                             <h class="nameBrand color sizeText">Main Interest</h>
 
-                            <p class="formatText"> Morely cosplay, Roblox, Buy & Sell, and Especially You! ^^</p>
+                            <p class="formatText"> Mostly cosplay, rhythm games especially maimai, and Buy & Sell ^^</p>
 
                             <h class="nameBrand color sizeText">Side Interest</h>
 
-                            <p class="formatText">I'm into  character designing, creating Alternate Universe (AU) and Miss Universe</p>
+                            <p class="formatText">I'm into  character designing and creating Alternate Universe (AU)</p>
                             `;
         
     }
@@ -151,18 +151,11 @@ clickBtn2.addEventListener('click', ()=>{
 
                             <h class="nameBrand color sizeText">My Character Strengths (VIA Strengths)</h>
 
-                            <p class="formatText">• <b>Spiritual</b> - </p>
-                            <p class="formatText">• <b>Kindness and Generosity</b> - I love giving and giving them let me love them even more</p>
-                            <p class="formatText">• <b>Fairness</b> - I give, and I take; practically wise</p>
-                            <p class="formatText">• <b>Forgiveness</b> - I love my enemy</p>
-                            <p class="formatText">• <b>Patience</b> - waiting to the right person</p>
-
 
                             <h class="nameBrand color sizeText">My Learning Style</h>
 
                             <p class="formatText">
-                                I learn a lot during my teenage years, I really love learning, and captivating people I 
-                                usually take it personal since those are my solely motivation
+                               asdjkasdjakd
 
                             </p>
                             `;
@@ -182,9 +175,7 @@ clickBtn3.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Way of Living</h>
 
                             <p class="formatText">
-                                I grew up in a single child who's able to keep my sanity through drawing.
-                                I believe that potato corner is just a potato. That is why the strawberry taste like
-                                strawberry
+                                akdhakhdskasdj
                             </p>
                             `;
     }
