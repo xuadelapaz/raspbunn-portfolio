@@ -205,7 +205,7 @@ clickBtn4.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Three Dimensional Modelling</h>
 
                             <p class="formatText">
-                                I'm also recently trying to learn 3D modelling and an Objects
+                                I'm also recently trying to learn 3D modelling.
 
                             </p>
                             <p class="formatText">• Program :</p>
