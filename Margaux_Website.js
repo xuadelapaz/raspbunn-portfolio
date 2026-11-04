@@ -174,7 +174,7 @@ clickBtn3.addEventListener('click', ()=>{
         philosophy.classList.add('addInfo');
         clickBtn3.classList.add('openBtn');
         philosophy.innerHTML = `   
-                            <h class="nameBrand color sizeText">Way of Living</h>
+                            <h class="nameBrand color sizeText">Personal Values or Life Philosophy</h>
 
                             <p class="formatText">
                                 Don’t let every rejection drain your whole mood, if only you could count how close each rejections actually bring you to success, maybeit isn’t bad afterall.
