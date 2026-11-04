@@ -142,17 +142,17 @@ clickBtn2.addEventListener('click', ()=>{
 
                             <h class="nameBrand color sizeText">My Character Strengths (VIA Strengths)</h>
 
-    <p>❖ Curiosity - I find so many subjects and topics fascinating, and I'm always looking to explore and discover new things. 
+    <p> ❖ Curiosity - I find so many subjects and topics fascinating, and I'm always looking to explore and discover new things. </p>
 
-    ❖ Love - I deeply value close relationships, especially the ones where caring and sharing go both ways. Being close to the people in my life means a lot to me. 
+    <p> ❖ Love - I deeply value close relationships, especially the ones where caring and sharing go both ways. Being close to the people in my life means a lot to me. </p>
          
-    ❖ Humor - I really enjoy laughing, teasing, and bringing smiles to people's faces. I like looking on the light side of things and making life a bit funnier. 
+    <p> ❖ Humor - I really enjoy laughing, teasing, and bringing smiles to people's faces. I like looking on the light side of things and making life a bit funnier. </p>
 
-    ❖ Fairness - I believe in treating everyone equally based on fairness and justice. I try not to let personal feelings bias my decisions, and I make sure everyone gets a fair chance. 
+   <p> ❖ Fairness - I believe in treating everyone equally based on fairness and justice. I try not to let personal feelings bias my decisions, and I make sure everyone gets a fair chance. </p>
     
-    ❖ Honesty - I stick to speaking the truth, but more than that, I focus on being genuine and sincere in how I present myself. I don’t sugarcoat, and I take full responsibility for my feelings and actions. 
+   <p> ❖ Honesty - I stick to speaking the truth, but more than that, I focus on being genuine and sincere in how I present myself. I don’t sugarcoat, and I take full responsibility for my feelings and actions. </p>
 
-    ❖ Bravery - I don't back down from threats, challenges, difficulties, or pain. I'm willing to speak up for what's right even when people disagree, and I stand by my convictions even if it makes me unpopular.</p> 
+    <p> ❖ Bravery - I don't back down from threats, challenges, difficulties, or pain. I'm willing to speak up for what's right even when people disagree, and I stand by my convictions even if it makes me unpopular.</p> 
 
                             <h class="nameBrand color sizeText">My Learning Style</h>
 
