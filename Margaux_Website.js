@@ -157,8 +157,8 @@ clickBtn2.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">My Learning Style</h>
 
                             <p class="formatText">
-                               asdjkasdjakd
-
+                               My learning style preference is Visual. 
+                               Personally, having a visual learning style basically means I learn way better when I can actually see what I'm studying like using pictures, diagrams, and videos. (Side note: I actually hope this particular activity also had an example)
                             </p>
                             `;
     }
