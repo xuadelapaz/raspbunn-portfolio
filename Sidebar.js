@@ -1,12 +1,174 @@
 /*Real JS */
+const pop = document.querySelector('.alert');
+const closeBtn = document.querySelector('.alertClose');
+const queue = document.getElementById('workQueueBtn');
 
+if (queue){
+    queue.addEventListener('click', ()=>{
+         pop.innerHTML = ` <div class="alertW">
+                <div class="alertFront">
+                    <div class="alertGrid">
+                        <div class="alertSection1"> 
+                            <button class="alertClose">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#e3e3e3"><path d="M6.4,19L5,17.6L10.6,12L5,6.4L6.4,5L12,10.6L17.6,5L19,6.4L13.4,12L19,17.6L17.6,19L12,13.4L6.4,19Z"/></svg>
+                            </button>
+                        </div>
+                        <div class="alertSection2">
+                            <div class="alertSection2Wrap">
+                                <div class="alertProfileWrap">
+                                    <div class="alertProfile"></div>
+                                </div>
+                                <div class="raspTextWrap">
+                                    <h class="nameBrand color rasp">Raspbunn</h>
+                                    <p class="atRasp">@rcspbunn</p>
+                                </div>
+                                
+                            </div>
+                            <div class="workWrap">
+                                    <h1>Work Queue</h1>
+                                    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#e3e3e3"><path d="M4,20V18H6.75l-0.4-0.35q-1.3-1.15-1.83-2.62T4,12.05Q4,9.27 5.66,7.11T10,4.25v2.1Q8.2,7 7.1,8.56T6,12.05q0,1.13 0.43,2.19T7.75,16.2L8,16.45V14h2v6H4Zm10-0.25v-2.1q1.8-0.65 2.9-2.21T18,11.95q0-1.13-0.43-2.19T16.25,7.8L16,7.55V10H14V4h6V6H17.25l0.4,0.35q1.22,1.23 1.79,2.66T20,11.95q0,2.78-1.66,4.94T14,19.75Z"/></svg>Synced to Raspbunn</p>
+                                    <div class="boxTextWrap">
+                                       Thank you for considering me for your commission! Please note that I may not work in the exact order that the queue is sorted in.
+                                    </div>
+                            </div>
+                            <div class="queueWrap">
+                                <div class="category">
+                                    <p>All</p>
+                                    <p>By Service</p>
+                                </div>
+                                <div class="categoryBoxWrap">
+                                    <div class="categoryBox">
+                                        <div class="box newBox">✨ New</div>
+                                        <div class="outerBoxItem newColor">
+                                            <div class="boxItem itemN">Nothing in Here yet</div>
+                                        </div>
+                                    </div>
+                                    <div class="categoryBox">
+                                        <div class="box waitBox">Waitlist</div>
+                                        <div class="outerBoxItem waitColor">
+                                            <div class="boxItem itemW">Nothing in Here yet</div>
+                                        </div>
+                                    </div>
+                                    <div class="categoryBox">
+                                        <div class=" box queueBox">In Queue</div>
+                                        <div class="outerBoxItem queueColor">
+                                            <div class="boxItem itemQ">Nothing in Here yet</div>
+                                        </div>
+                                    </div>
+                                    <div class="categoryBox">
+                                        <div class="box wipBox">WIP</div>
+                                        <div class="outerBoxItem wipColor">
+                                            <div class="boxItem itemWI">Nothing in Here yet</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> `;
+
+        const alertW = pop.querySelector('.alertW');
+        const alertFront = pop.querySelector('.alertFront');
+
+        // Set the starting styles before animating
+        alertW.style.opacity = '0';
+        alertW.style.transition = 'opacity 0.3s ease-out, background-color 0.3s ease-out';
+        alertW.style.backgroundColor = 'rgba(255, 144, 144, 0)';
+
+        alertFront.style.transform = 'translate(-50%, -45%) scale(0.95)';
+        alertFront.style.opacity = '0';
+        alertFront.style.transition = 'transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease-out';
+
+        //  Force browser layout recalculation and apply target state frame
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                alertW.style.opacity = '1';
+                alertW.style.backgroundColor = 'rgba(255, 144, 144, 0.5)';
+                
+                alertFront.style.transform = 'translate(-50%, -50%) scale(1)';
+                alertFront.style.opacity = '1';
+            });
+        });
+    });
+    
+}
+
+if (pop){
+    pop.addEventListener('click', (event)=>{
+        if (event.target.closest('.alertClose')){
+            const alertW = pop.querySelector('.alertW');
+            const alertFront = pop.querySelector('.alertFront');
+
+            if (alertW && alertFront) {
+                // Reverse the styles for exit transition
+                alertW.style.opacity = '0';
+                alertW.style.backgroundColor = 'rgba(255, 144, 144, 0)';
+                alertFront.style.transform = 'translate(-50%, -45%) scale(0.95)';
+                alertFront.style.opacity = '0';
+
+                // Clear layout from DOM tree after transitions complete
+                setTimeout(() => {
+                    pop.innerHTML = '';
+                }, 300); 
+            }
+        }
+    });
+}
 
 function popUp(){
-    const pop = document.querySelector('.alert');
+    
 
-    pop.innerHTML = `  <div class="alertW">
+    pop.innerHTML = ` <div class="alertW">
                 <div class="alertFront">
-                <h class=" nameBrand color margin">HELLO</h>
+                    <div class="alertGrid">
+                        <div class="alertSection1"> 
+                            <button class="alertClose">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#e3e3e3"><path d="M6.4,19L5,17.6L10.6,12L5,6.4L6.4,5L12,10.6L17.6,5L19,6.4L13.4,12L19,17.6L17.6,19L12,13.4L6.4,19Z"/></svg>
+                            </button>
+                        </div>
+                        <div class="alertSection2">
+                            <div class="alertSection2Container">
+                                    <div class="raspWrap">
+                                    <div class="alertSection2Wrap">
+                               
+                                        <div class="alertProfileWrap">
+                                            <div class="alertProfile"></div>
+                                        </div>
+                                        <div class="raspTextWrap">
+                                            <h class="nameBrand color rasp">Raspbunn</h>
+                                            <p class="atRasp">@rcspbunn</p>
+                                        </div>
+                                        
+                                            
+                                    
+                                    </div>
+                                        <h1 class="messageTextFront">Message Me now for commission</h1>
+                                        <p class="messageTextSubtext">Thank you for the commission. Your continued support is greatly appreciated<p>
+                                        <div class="messageImgWrapper"><div class="messageImg"></div></div>
+                                    </div>
+                                   <div class="workWrap emailContainer">
+                                        <div class="emailSectionWrap">
+
+                                            <div class="emailInsideContainer">
+                                                <h2>Username :</h2>
+                                                <input type="text" placeholder="Enter Your Name oh seeker" class="username">
+                                                <h2>Email :</h2>
+                                                <input type="text" placeholder="Enter your Email great one! (Example: @gmail.com)" class="email">
+                                                <h2>Subject :</h2>
+                                                <input type="text" placeholder="What is your agenda oh great one?" class="subject">
+                                                <h2>Message to me :</h2>
+                                                <input type="text" placeholder="Enter your request adventurer!" class="message">
+                                                <div class="submitDisplay">
+                                                    <button type="submit" class="submitDesign">Submit!</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>`;
 }
@@ -100,18 +262,28 @@ const terms = document.getElementById('termsBtn');
 const myWorks =document.getElementById('portfolioBtn');
 const about = document.getElementById('aboutBtn');
 
+if(rates){
+
 rates.addEventListener('click', ()=>{
     window.location.href = 'Rates.html';
 });
 
+}
+
+if (terms){
 terms.addEventListener('click', ()=>{
     window.location.href = 'Terms.html';
 });
+}
 
+if (myWorks){
 myWorks.addEventListener('click', ()=>{
     window.location.href = "Portfolio.html";
 });
+}
 
+if (about){
 about.addEventListener('click', ()=>{
     window.location.href = "index.html";
 });
+}
