@@ -13,7 +13,7 @@ function mek(){
 
         switch(true){
     case (meValue < 0.2):   {
-        document.body.innerHTML= "HEHEHEHEHEHEHEH";
+        document.body.innerHTML= "HHHHHHH";
         console.log(meValue);
         break;
     };
@@ -248,7 +248,7 @@ clickBtn5.addEventListener('click', ()=>{
 
                             <h class="nameBrand color sizeText">CIIT College of arts Arts and Technology</h>
 
-                            <p class="formatText">• a member of cosplayer</p>
+                            <p class="formatText">Cosplayer</p>
 
                             <h class="nameBrand color sizeText">Arellano University Plaridel Campus Senior Highschool</h>
 
@@ -273,13 +273,13 @@ clickBtn6.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Freelance & Illustration</h>
 
                             <p class="formatText">• Buy and Sell Thrift Shop</p>
-                            <p class="formatText">• a member of cosplayer</p>
-                            <p class="formatText">• Commisioning Arts</p>
+                            <p class="formatText">• Cosplayer</p>
+                            <p class="formatText">• Commission</p>
 
 
                             <h class="nameBrand color sizeText">Tiktok Content Creator</h>
 
-                            <p class="formatText">• 12.2k views in Animations 2026</p>
+                            <p class="formatText">• 25.2k views in Jinx Animation 2026</p>
                             <p class="formatText">• Posting Alternate Universe (AU)</p>
 
                              <h class="nameBrand color sizeText">Miscellaneous</h>
