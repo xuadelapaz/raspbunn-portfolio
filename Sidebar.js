@@ -171,6 +171,30 @@ function popUp(){
                     </div>
                 </div>
             </div>`;
+
+            
+        const alertW = pop.querySelector('.alertW');
+        const alertFront = pop.querySelector('.alertFront');
+
+        // Set the starting styles before animating
+        alertW.style.opacity = '0';
+        alertW.style.transition = 'opacity 0.3s ease-out, background-color 0.3s ease-out';
+        alertW.style.backgroundColor = 'rgba(255, 144, 144, 0)';
+
+        alertFront.style.transform = 'translate(-50%, -45%) scale(0.95)';
+        alertFront.style.opacity = '0';
+        alertFront.style.transition = 'transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease-out';
+
+        //  Force browser layout recalculation and apply target state frame
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                alertW.style.opacity = '1';
+                alertW.style.backgroundColor = 'rgba(255, 144, 144, 0.5)';
+                
+                alertFront.style.transform = 'translate(-50%, -50%) scale(1)';
+                alertFront.style.opacity = '1';
+            });
+        });
 }
 
 /*Time Date */

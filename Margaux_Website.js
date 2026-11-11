@@ -13,7 +13,7 @@ function mek(){
 
         switch(true){
     case (meValue < 0.2):   {
-        document.body.innerHTML= "HHHHHHH";
+        document.body.innerHTML= "HEHEHEHEHEHEHEH";
         console.log(meValue);
         break;
     };
@@ -81,7 +81,7 @@ clickBtn.addEventListener('click', ()=>{
     else{
         personal.classList.add('addInfo');
         clickBtn.classList.add('openBtn');
-        personal.innerHTML = `<h class="nameBrand color sizeText">Get to know me ! :3</h>
+        personal.innerHTML = `<h class="nameBrand color sizeText">Get to know me ! :</h>
 
                             <p class="formatText">Preferred Names: Xua / Mango / Margaux</p>
                             <p class="formatText">Gender: She / They</p>
@@ -98,7 +98,7 @@ clickBtn.addEventListener('click', ()=>{
 
                             <h class="nameBrand color sizeText">Side Interest</h>
 
-                            <p class="formatText">I'm into  character designing and creating Alternate Universe (AU)</p>
+                            <p class="formatText">I'm into character designing and creating Alternate Universe (AU)</p>
                             `;
         
     }
@@ -138,27 +138,26 @@ clickBtn2.addEventListener('click', ()=>{
     else {
         strength.classList.add('addInfo');
         clickBtn2.classList.add('openBtn');
-        strength.innerHTML = `<h class="nameBrand color sizeText">Personality Test (Big Five Inventory)</h>
+        strength.innerHTML = `<h class="nameBrand color sizeText">Personality Test (Big Five Inventory) My Character Strengths (VIA Strengths)</h>
+        
+                              <video class="personalityVideo" autoplay disablePictureInPicture >
+                                 <source src="image/TransparentW.webm" type="video/webm">
+                              </video>
+                            <p class="formatText">
+                                ❖ Curiosity - I find so many subjects and topics fascinating, and I'm always looking to explore and discover new things.
 
-                            <h class="nameBrand color sizeText">My Character Strengths (VIA Strengths)</h>
-
-    <p> ❖ Curiosity - I find so many subjects and topics fascinating, and I'm always looking to explore and discover new things. </p>
-
-    <p> ❖ Love - I deeply value close relationships, especially the ones where caring and sharing go both ways. Being close to the people in my life means a lot to me. </p>
-         
-    <p> ❖ Humor - I really enjoy laughing, teasing, and bringing smiles to people's faces. I like looking on the light side of things and making life a bit funnier. </p>
-
-   <p> ❖ Fairness - I believe in treating everyone equally based on fairness and justice. I try not to let personal feelings bias my decisions, and I make sure everyone gets a fair chance. </p>
-    
-   <p> ❖ Honesty - I stick to speaking the truth, but more than that, I focus on being genuine and sincere in how I present myself. I don’t sugarcoat, and I take full responsibility for my feelings and actions. </p>
-
-    <p> ❖ Bravery - I don't back down from threats, challenges, difficulties, or pain. I'm willing to speak up for what's right even when people disagree, and I stand by my convictions even if it makes me unpopular.</p> 
+                            </p>
+                            <p class="formatText">❖ Love - I deeply value close relationships, especially the ones where caring and sharing go both ways. Being close to the people in my life means a lot to me.</p>
+                            <p class="formatText">❖ Humor - I really enjoy laughing, teasing, and bringing smiles to people's faces. I like looking on the light side of things and making life a bit funnier.</p>
+                            <p class="formatText">❖ Fairness - I believe in treating everyone equally based on fairness and justice. I try not to let personal feelings bias my decisions, and I make sure everyone gets a fair chance.</p>
+                            <p class="formatText">❖ Honesty - I stick to speaking the truth, but more than that, I focus on being genuine and sincere in how I present myself. I don’t sugarcoat, and I take full responsibility for my feelings and actions.</p>
+                            <p class="formatText">❖ Bravery - I don't back down from threats, challenges, difficulties, or pain. I'm willing to speak up for what's right even when people disagree, and I stand by my convictions even if it makes me unpopular.</p>
 
                             <h class="nameBrand color sizeText">My Learning Style</h>
 
                             <p class="formatText">
-                               My learning style preference is Visual. 
-                               Personally, having a visual learning style basically means I learn way better when I can actually see what I'm studying like using pictures, diagrams, and videos. (Side note: I actually hope this particular activity also had an example)
+                               My learning style preference is Visual. Personally, having a visual learning style basically means I learn way better when I can actually see what I'm studying like using pictures, diagrams, and videos. (Side note: I actually hope this particular activity also had an example)
+
                             </p>
                             `;
     }
@@ -177,7 +176,7 @@ clickBtn3.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Personal Values or Life Philosophy</h>
 
                             <p class="formatText">
-                                Don’t let every rejection drain your whole mood, if only you could count how close each rejections actually bring you to success, maybeit isn’t bad afterall.
+                               Don’t let every rejection drain your whole mood, if only you could count how close each rejections actually bring you to success, maybeit isn’t bad afterall.
                             </p>
                             `;
     }
@@ -248,7 +247,7 @@ clickBtn5.addEventListener('click', ()=>{
 
                             <h class="nameBrand color sizeText">CIIT College of arts Arts and Technology</h>
 
-                            <p class="formatText">Cosplayer</p>
+                            <p class="formatText">• a member of cosplayer</p>
 
                             <h class="nameBrand color sizeText">Arellano University Plaridel Campus Senior Highschool</h>
 
@@ -273,13 +272,20 @@ clickBtn6.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Freelance & Illustration</h>
 
                             <p class="formatText">• Buy and Sell Thrift Shop</p>
-                            <p class="formatText">• Cosplayer</p>
-                            <p class="formatText">• Commission</p>
+                            <p class="formatText">• a member of cosplayer</p>
+                            <p class="formatText">• Commisioning Arts</p>
 
 
                             <h class="nameBrand color sizeText">Tiktok Content Creator</h>
 
-                            <p class="formatText">• 25.2k views in Jinx Animation 2026</p>
+                            <p class="formatText">• 12.2k views in Animations 2026</p>
+                            <p class="formatText">• Posting Alternate Universe (AU)</p>
+
+                             <h class="nameBrand color sizeText">Miscellaneous</h>
+
+                            <p class="formatText">• Comicon Cosplayer</p>
+                            <p class="formatText"></p>
+
                             `;
     }
 });
