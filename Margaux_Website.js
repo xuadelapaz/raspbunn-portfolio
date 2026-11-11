@@ -280,13 +280,6 @@ clickBtn6.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Tiktok Content Creator</h>
 
                             <p class="formatText">• 25.2k views in Jinx Animation 2026</p>
-                            <p class="formatText">• Posting Alternate Universe (AU)</p>
-
-                             <h class="nameBrand color sizeText">Miscellaneous</h>
-
-                            <p class="formatText">• Comicon Cosplayer</p>
-                            <p class="formatText">• Furry Lover</p>
-
                             `;
     }
 });
