@@ -81,24 +81,24 @@ clickBtn.addEventListener('click', ()=>{
     else{
         personal.classList.add('addInfo');
         clickBtn.classList.add('openBtn');
-        personal.innerHTML = `<h class="nameBrand color sizeText">Who I am</h>
+        personal.innerHTML = `<h class="nameBrand color sizeText">Get to know me ! :</h>
 
-                            <p class="formatText">Preferred Names: Xua / Gauxy / Rasp</p>
+                            <p class="formatText">Preferred Names: Xua / Mango / Margaux</p>
                             <p class="formatText">Gender: She / They</p>
                             <p class="formatText">Sexual Orientation: Pansexual</p>
                             <p class="formatText">Birthday: January 25, 2007</p>
 
                             <h class="nameBrand color sizeText">What I'm Like</h>
 
-                            <p class="formatText">I'm a furry lover who loves furries specially yaoi furries</p>
+                            <p class="formatText">I'm a tradigital artist that loves to design people in pretty clothes :3</p>
 
                             <h class="nameBrand color sizeText">Main Interest</h>
 
-                            <p class="formatText"> Morely cosplay, Roblox, Buy & Sell, and Especially You! ^^</p>
+                            <p class="formatText"> Mostly cosplay, rhythm games especially maimai, and Buy & Sell ^^</p>
 
                             <h class="nameBrand color sizeText">Side Interest</h>
 
-                            <p class="formatText">I'm into  character designing, creating Alternate Universe (AU) and Miss Universe</p>
+                            <p class="formatText">I'm into character designing and creating Alternate Universe (AU)</p>
                             `;
         
     }
@@ -138,31 +138,25 @@ clickBtn2.addEventListener('click', ()=>{
     else {
         strength.classList.add('addInfo');
         clickBtn2.classList.add('openBtn');
-        strength.innerHTML = `<h class="nameBrand color sizeText">Personality Test (Big Five Inventory)</h>
-
+        strength.innerHTML = `<h class="nameBrand color sizeText">Personality Test (Big Five Inventory) My Character Strengths (VIA Strengths)</h>
+        
+                              <video class="personalityVideo" autoplay disablePictureInPicture >
+                                 <source src="image/TransparentW.webm" type="video/webm">
+                              </video>
                             <p class="formatText">
-                                I'm quite a straightforward person and enjoys the company of my fellow friends
-                                —a enthusiastic person who loves to do the things I love and focus on the person who I love
+                                ❖ Curiosity - I find so many subjects and topics fascinating, and I'm always looking to explore and discover new things.
 
                             </p>
-                            <p class="formatText">Gender: She / They</p>
-                            <p class="formatText">Sexual Orientation: Pansexual</p>
-                            <p class="formatText">Birthday: January 25, 2007</p>
-
-                            <h class="nameBrand color sizeText">My Character Strengths (VIA Strengths)</h>
-
-                            <p class="formatText">• <b>Spiritual</b> - </p>
-                            <p class="formatText">• <b>Kindness and Generosity</b> - I love giving and giving them let me love them even more</p>
-                            <p class="formatText">• <b>Fairness</b> - I give, and I take; practically wise</p>
-                            <p class="formatText">• <b>Forgiveness</b> - I love my enemy</p>
-                            <p class="formatText">• <b>Patience</b> - waiting to the right person</p>
-
+                            <p class="formatText">❖ Love - I deeply value close relationships, especially the ones where caring and sharing go both ways. Being close to the people in my life means a lot to me.</p>
+                            <p class="formatText">❖ Humor - I really enjoy laughing, teasing, and bringing smiles to people's faces. I like looking on the light side of things and making life a bit funnier.</p>
+                            <p class="formatText">❖ Fairness - I believe in treating everyone equally based on fairness and justice. I try not to let personal feelings bias my decisions, and I make sure everyone gets a fair chance.</p>
+                            <p class="formatText">❖ Honesty - I stick to speaking the truth, but more than that, I focus on being genuine and sincere in how I present myself. I don’t sugarcoat, and I take full responsibility for my feelings and actions.</p>
+                            <p class="formatText">❖ Bravery - I don't back down from threats, challenges, difficulties, or pain. I'm willing to speak up for what's right even when people disagree, and I stand by my convictions even if it makes me unpopular.</p>
 
                             <h class="nameBrand color sizeText">My Learning Style</h>
 
                             <p class="formatText">
-                                I learn a lot during my teenage years, I really love learning, and captivating people I 
-                                usually take it personal since those are my solely motivation
+                               My learning style preference is Visual. Personally, having a visual learning style basically means I learn way better when I can actually see what I'm studying like using pictures, diagrams, and videos. (Side note: I actually hope this particular activity also had an example)
 
                             </p>
                             `;
@@ -179,12 +173,10 @@ clickBtn3.addEventListener('click', ()=>{
         philosophy.classList.add('addInfo');
         clickBtn3.classList.add('openBtn');
         philosophy.innerHTML = `   
-                            <h class="nameBrand color sizeText">Way of Living</h>
+                            <h class="nameBrand color sizeText">Personal Values or Life Philosophy</h>
 
                             <p class="formatText">
-                                I grew up in a single child who's able to keep my sanity through drawing.
-                                I believe that potato corner is just a potato. That is why the strawberry taste like
-                                strawberry
+                               Don’t let every rejection drain your whole mood, if only you could count how close each rejections actually bring you to success, maybeit isn’t bad afterall.
                             </p>
                             `;
     }
@@ -223,7 +215,7 @@ clickBtn4.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Three Dimensional Modelling</h>
 
                             <p class="formatText">
-                                I'm also recently trying to learn 3D modelling and an Objects
+                                I'm also recently trying to learn 3D modelling.
 
                             </p>
                             <p class="formatText">• Program :</p>
@@ -292,7 +284,7 @@ clickBtn6.addEventListener('click', ()=>{
                              <h class="nameBrand color sizeText">Miscellaneous</h>
 
                             <p class="formatText">• Comicon Cosplayer</p>
-                            <p class="formatText">• Furry Lover</p>
+                            <p class="formatText"></p>
 
                             `;
     }

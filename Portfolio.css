@@ -6,15 +6,59 @@
     --card-medium : 33;
     --card-large: 44;
 
+    --card-container-bg: transparent;
+
+    --get-started-bg:#450D57;
+    --get-started-textcolor: white;
+
+    --porfolio-textcolor:#8B1E65;
+    --portfolio-none-textcolor:black;
+    --filter-bg: transparent;
+    --filter-hover-bg: rgb(255, 184, 255);
+    --filter-hover-textcolor: black;
+
+    --filter-active-bg: darkviolet;
+    --filter-active-textcolor: white;
+
+  
+}
+/*vertical line*/
+.verticalLine{
+    margin: 25px 0px 50px 272.5px !important;
 }
 
 .portfolioWrapper{
+    margin: 0px 0px 0px -15px;
     width: 100%;
     
 }
 
 .portfolioSize{
-    font-size: 100px;
+    display: inline;
+    /*text-shadow:   -1px -1px 0 #000,  
+     2px -1px 0 #000,
+    -1px  2px 0 #000,
+     2px  2px 0 #000;*/
+    color: var(--porfolio-textcolor) ;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.headerNameWrap{
+    padding: 20px 0px 20px 0px;
+    margin: 0px 0px 0px 10px;
+    width: 97%;
+    border-bottom: solid 1px black;
+}
+.borderIndicator{
+    margin:  -1.2px -20px 0px 530px;
+    width: 12.5rem;
+    border-bottom: solid 2px var(--porfolio-textcolor);
+}
+.headBlank{
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+    color: var(--portfolio-none-textcolor);
 }
 
 .indicator{
@@ -49,6 +93,55 @@
     border-radius: 40px;
 
 }
+.getStartedWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+}
+.getStarted{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: var(--get-started-bg) ;
+    color: var(--get-started-textcolor);
+
+    margin: -50px 0px 0px 0px;
+    border-radius: 10rem;
+    padding: 0px;
+    width: 100%;
+    height: 5rem;
+}
+
+.getStarted h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkGetStarted{
+    padding: 0px 20px 0px 20px;
+    width: 40px !important;
+   
+    fill: white !important;
+}
+
+.checkCommision{
+    clip-path: polygon(
+     50% 0%,    /*  Top Point            */
+    100% 25%,  /* Right-Top Corner     */
+    100% 75%,  /*  Right-Bottom Corner  */
+    50% 100%,  /*  Bottom Point         */
+    0% 75%,    /* Left-Bottom Corner   */
+    0% 25%    
+        
+    );
+
+    padding: 5px;
+    height: 34px;
+    background-color: var(--workSymbol-bg);
+    width: 34px !important;
+}
 
 /*Images Content*/
 
@@ -69,11 +162,11 @@
     left: 0;
  
     position: relative;
-
-    margin: 40px 20px 20px 20px;
+    box-shadow: 0px 1px 2.5px rgba(0, 0, 0, 0.288);
+    margin: 40px 30px 20px 20px;
     padding: 0;
-    border: solid 1px black;
-    background-color: transparent;
+    border: none;
+    background-color: var(--card-container-bg);
     border-radius: var(--card-border-radius);
 }
 
@@ -81,7 +174,7 @@
     padding: 0;
     margin: 20px 15px;
     border-radius: var(--card-border-radius);
-    background-color: red;
+    background-color: transparent;
 }
 
 .cardSmall{
@@ -96,3 +189,30 @@
 .cardLarge{
     grid-row-end: span var(--card-large);
 }
+
+.filterBtn{
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px  2px 2px rgba(0, 0, 0, 0.281);
+    border-radius: 10px;
+    background-color: var(--filter-bg) ;
+    cursor: pointer;
+}
+
+.filterBtn:hover{
+    color: var(--filter-hover-textcolor);
+    background-color: var(--filter-hover-bg);
+}
+
+.filterBtn:Active{
+    color: var(--filter-active-bg);
+    background-color: var(--filter-active-textcolor);
+}
+
+.activeFilter{
+    color: var(--filter-hover-textcolor);
+    background-color: var(--filter-hover-bg);
+}
+
+
