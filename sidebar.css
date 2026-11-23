@@ -1,0 +1,53 @@
+:root{
+    --link-color:black;
+    --workSymbolWork-bg:white;
+    --workSymbol-bg:rgb(110, 228, 110);
+}
+
+.workSymbolWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: var(--workSymbolWork-bg);
+    margin: 0px 10px 0px 0px;
+}
+
+.workSymbol{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--workSymbol-bg);
+    margin: 10PX;
+    padding: 7.5px;
+    width: 1.75px;
+    height: 1.75px;
+    clip-path: polygon(
+     50% 0%,    /*  Top Point            */
+    100% 25%,  /* Right-Top Corner     */
+    100% 75%,  /*  Right-Bottom Corner  */
+    50% 100%,  /*  Bottom Point         */
+    0% 75%,    /* Left-Bottom Corner   */
+    0% 25%    
+        
+    );
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    margin: 0px -4.5px 0px 90px !important;
+}
+
+
+
+.linkStyle{
+    text-align: center;
+    text-decoration: none;
+    color: var(--link-color);
+    cursor: pointer;
+}
