@@ -1,0 +1,30 @@
+.textWrapper p{
+    font-family: Roboto;
+    margin: 1px 50px 1px 10px;
+    padding: 1px 0px 1px 0px;
+    text-align: justify;
+    
+}
+
+.textWrapper  h1{
+    font-family: Roboto;
+    font-weight: 500;
+    padding: 10px 0px 10px 0px;
+}
+.termsTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.textWrapper > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    padding: 20px;
+}
+.marginFinalP{
+    margin-bottom: 100px;
+}
