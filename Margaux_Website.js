@@ -266,8 +266,8 @@ clickBtn6.addEventListener('click', ()=>{
 
                            <p class="formatText">• Freelance digital artist (2019-present)</p>
                            <p class="formatText">• Freelance character designer (2024-present)</p>
-                            <p class="formatText">• Buy and Sell Thrift Shop (2026)</p>
-                            <p class="formatText">• Cosplayer (2023-present)</p>
+                            <p class="formatText">• Buy and Sell Thrift Shop Owner (2026)</p>
+
 
 
                             <h class="nameBrand color sizeText">Tiktok Content Creator</h>
@@ -277,7 +277,7 @@ clickBtn6.addEventListener('click', ()=>{
 
                              <h class="nameBrand color sizeText">Miscellaneous</h>
 
-                            <p class="formatText">• Cosplayer</p>
+                            <p class="formatText">• Cosplayer (2023-present)</p>
                             <p class="formatText"></p>
 
                             `;
