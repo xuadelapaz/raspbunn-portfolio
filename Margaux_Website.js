@@ -119,11 +119,11 @@ clickBtn1.addEventListener('click', ()=>{
         clickBtn1.classList.add('openBtn');
         mission.innerHTML =` <div class="mission">
                                 <h class="nameBrand color sizeText">Mission</h>
-                                <p class="formatText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam voluptatibus molestias, ratione dolorum perspiciatis magnam earum est quasi nobis corrupti expedita sint accusantium quis! Ut fuga aliquam optio numquam rerum?</p>
+                                <p class="formatText">My mission is to unite visual clarity with unwavering persistence. I dedicate myself to transforming complex information into intuitive, visual frameworks that drive understanding. Anchored by the mindset that every rejection is a stepping stone toward the right opportunity, I approach my work with focus, creativity, and resilience.</p>
                             </div>
                             <div class="vision">
                                 <h class="nameBrand color sizeText">Vision</h>
-                                <p class="formatText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eius laboriosam? Atque modi hic deleniti reprehenderit? Quasi veniam repudiandae saepe. Ad non alias odio, voluptatem error quo voluptatibus nulla quaerat.</p>
+                                <p class="formatText">To become a visionary learner and unshakeable achiever who brings ideas to life visually and turns every 'no' into the foundation for lasting success.</p>
                             </div>`;
         
     }
@@ -212,12 +212,7 @@ clickBtn4.addEventListener('click', ()=>{
                             <p class="formatText">&emsp;Ibis Paint</p>
                             <p class="formatText">&emsp;Adobe Photoshop</p>
 
-                            <h class="nameBrand color sizeText">Three Dimensional Modelling</h>
-
-                            <p class="formatText">
-                                I'm also recently trying to learn 3D modelling.
-
-                            </p>
+                        
                             <p class="formatText">• Program :</p>
                             <p class="formatText">&emsp;Blender</p>
 
@@ -242,7 +237,7 @@ clickBtn5.addEventListener('click', ()=>{
         clickBtn5.classList.add('openBtn');
         academic.innerHTML = `   
                             
-                            <p class="formatText">I currently taking Multimedia course in CIIT College of Arts and Technology as Freshman.</p>
+                            <p class="formatText">I am currently taking Multimedia course in CIIT College of Arts and Technology as Freshman.</p>
                           
 
                             <h class="nameBrand color sizeText">CIIT College of arts Arts and Technology</h>
@@ -273,17 +268,16 @@ clickBtn6.addEventListener('click', ()=>{
 
                             <p class="formatText">• Buy and Sell Thrift Shop</p>
                             <p class="formatText">• a member of cosplayer</p>
-                            <p class="formatText">• Commisioning Arts</p>
 
 
                             <h class="nameBrand color sizeText">Tiktok Content Creator</h>
 
-                            <p class="formatText">• 12.2k views in Animations 2026</p>
+                            <p class="formatText">• 25.3k views in Run Rabbit Animation 2026</p>
                             <p class="formatText">• Posting Alternate Universe (AU)</p>
 
                              <h class="nameBrand color sizeText">Miscellaneous</h>
 
-                            <p class="formatText">• Comicon Cosplayer</p>
+                            <p class="formatText">• Cosplayer</p>
                             <p class="formatText"></p>
 
                             `;
