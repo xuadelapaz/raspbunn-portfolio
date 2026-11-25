@@ -243,9 +243,10 @@ clickBtn5.addEventListener('click', ()=>{
 
                             <h class="nameBrand color sizeText">Arellano University Plaridel Campus Senior Highschool</h>
 
-                             <p class="formatText">• ICT Club Graphic Designer 2025</p>
-                            <p class="formatText">• With High Honors 2025</p>
+                             
                             <p class="formatText">• With High Honors 2024</p>
+                            <p class="formatText">• With High Honors 2025</p>
+                            <p class="formatText">• ICT Club Graphic Designer 2025</p>
 
                             `;
     }
