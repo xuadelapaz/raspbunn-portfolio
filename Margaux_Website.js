@@ -13,7 +13,7 @@ function mek(){
 
         switch(true){
     case (meValue < 0.2):   {
-        document.body.innerHTML= "HHHHHHH";
+        document.body.innerHTML= "HEHEHEHEHEHEHEH";
         console.log(meValue);
         break;
     };
@@ -81,7 +81,7 @@ clickBtn.addEventListener('click', ()=>{
     else{
         personal.classList.add('addInfo');
         clickBtn.classList.add('openBtn');
-        personal.innerHTML = `<h class="nameBrand color sizeText">Get to know me ! :3</h>
+        personal.innerHTML = `<h class="nameBrand color sizeText">Get to know me ! :</h>
 
                             <p class="formatText">Preferred Names: Xua / Mango / Margaux</p>
                             <p class="formatText">Gender: She / They</p>
@@ -98,7 +98,7 @@ clickBtn.addEventListener('click', ()=>{
 
                             <h class="nameBrand color sizeText">Side Interest</h>
 
-                            <p class="formatText">I'm into  character designing and creating Alternate Universe (AU)</p>
+                            <p class="formatText">I'm into character designing and creating Alternate Universe (AU)</p>
                             `;
         
     }
@@ -119,11 +119,11 @@ clickBtn1.addEventListener('click', ()=>{
         clickBtn1.classList.add('openBtn');
         mission.innerHTML =` <div class="mission">
                                 <h class="nameBrand color sizeText">Mission</h>
-                                <p class="formatText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam voluptatibus molestias, ratione dolorum perspiciatis magnam earum est quasi nobis corrupti expedita sint accusantium quis! Ut fuga aliquam optio numquam rerum?</p>
+                                <p class="formatText">My mission is to unite visual clarity with unwavering persistence. I dedicate myself to transforming complex information into intuitive, visual frameworks that drive understanding. Anchored by the mindset that every rejection is a stepping stone toward the right opportunity, I approach my work with focus, creativity, and resilience.</p>
                             </div>
                             <div class="vision">
                                 <h class="nameBrand color sizeText">Vision</h>
-                                <p class="formatText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eius laboriosam? Atque modi hic deleniti reprehenderit? Quasi veniam repudiandae saepe. Ad non alias odio, voluptatem error quo voluptatibus nulla quaerat.</p>
+                                <p class="formatText">To become a visionary learner and unshakeable achiever who brings ideas to life visually and turns every 'no' into the foundation for lasting success.</p>
                             </div>`;
         
     }
@@ -138,27 +138,26 @@ clickBtn2.addEventListener('click', ()=>{
     else {
         strength.classList.add('addInfo');
         clickBtn2.classList.add('openBtn');
-        strength.innerHTML = `<h class="nameBrand color sizeText">Personality Test (Big Five Inventory)</h>
+        strength.innerHTML = `<h class="nameBrand color sizeText">Personality Test (Big Five Inventory) My Character Strengths (VIA Strengths)</h>
+        
+                              <video class="personalityVideo" autoplay disablePictureInPicture >
+                                 <source src="image/TransparentW.webm" type="video/webm">
+                              </video>
+                            <p class="formatText">
+                                ❖ Curiosity - I find so many subjects and topics fascinating, and I'm always looking to explore and discover new things.
 
-                            <h class="nameBrand color sizeText">My Character Strengths (VIA Strengths)</h>
-
-    <p> ❖ Curiosity - I find so many subjects and topics fascinating, and I'm always looking to explore and discover new things. </p>
-
-    <p> ❖ Love - I deeply value close relationships, especially the ones where caring and sharing go both ways. Being close to the people in my life means a lot to me. </p>
-         
-    <p> ❖ Humor - I really enjoy laughing, teasing, and bringing smiles to people's faces. I like looking on the light side of things and making life a bit funnier. </p>
-
-   <p> ❖ Fairness - I believe in treating everyone equally based on fairness and justice. I try not to let personal feelings bias my decisions, and I make sure everyone gets a fair chance. </p>
-    
-   <p> ❖ Honesty - I stick to speaking the truth, but more than that, I focus on being genuine and sincere in how I present myself. I don’t sugarcoat, and I take full responsibility for my feelings and actions. </p>
-
-    <p> ❖ Bravery - I don't back down from threats, challenges, difficulties, or pain. I'm willing to speak up for what's right even when people disagree, and I stand by my convictions even if it makes me unpopular.</p> 
+                            </p>
+                            <p class="formatText">❖ Love - I deeply value close relationships, especially the ones where caring and sharing go both ways. Being close to the people in my life means a lot to me.</p>
+                            <p class="formatText">❖ Humor - I really enjoy laughing, teasing, and bringing smiles to people's faces. I like looking on the light side of things and making life a bit funnier.</p>
+                            <p class="formatText">❖ Fairness - I believe in treating everyone equally based on fairness and justice. I try not to let personal feelings bias my decisions, and I make sure everyone gets a fair chance.</p>
+                            <p class="formatText">❖ Honesty - I stick to speaking the truth, but more than that, I focus on being genuine and sincere in how I present myself. I don’t sugarcoat, and I take full responsibility for my feelings and actions.</p>
+                            <p class="formatText">❖ Bravery - I don't back down from threats, challenges, difficulties, or pain. I'm willing to speak up for what's right even when people disagree, and I stand by my convictions even if it makes me unpopular.</p>
 
                             <h class="nameBrand color sizeText">My Learning Style</h>
 
                             <p class="formatText">
-                               My learning style preference is Visual. 
-                               Personally, having a visual learning style basically means I learn way better when I can actually see what I'm studying like using pictures, diagrams, and videos. (Side note: I actually hope this particular activity also had an example)
+                               My learning style preference is Visual. Personally, having a visual learning style basically means I learn way better when I can actually see what I'm studying like using pictures, diagrams, and videos. (Side note: I actually hope this particular activity also had an example)
+
                             </p>
                             `;
     }
@@ -177,7 +176,7 @@ clickBtn3.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Personal Values or Life Philosophy</h>
 
                             <p class="formatText">
-                                Don’t let every rejection drain your whole mood, if only you could count how close each rejections actually bring you to success, maybeit isn’t bad afterall.
+                               Don’t let every rejection drain your whole mood, if only you could count how close each rejections actually bring you to success, maybeit isn’t bad afterall.
                             </p>
                             `;
     }
@@ -213,14 +212,6 @@ clickBtn4.addEventListener('click', ()=>{
                             <p class="formatText">&emsp;Ibis Paint</p>
                             <p class="formatText">&emsp;Adobe Photoshop</p>
 
-                            <h class="nameBrand color sizeText">Three Dimensional Modelling</h>
-
-                            <p class="formatText">
-                                I'm also recently trying to learn 3D modelling.
-
-                            </p>
-                            <p class="formatText">• Program :</p>
-                            <p class="formatText">&emsp;Blender</p>
 
                             <h class="nameBrand color sizeText">Video Editing</h>
 
@@ -243,17 +234,19 @@ clickBtn5.addEventListener('click', ()=>{
         clickBtn5.classList.add('openBtn');
         academic.innerHTML = `   
                             
-                            <p class="formatText">I currently taking Multimedia course in CIIT College of Arts and Technology as Freshman.</p>
+                            
                           
 
-                            <h class="nameBrand color sizeText">CIIT College of arts Arts and Technology</h>
+                            <h class="nameBrand color sizeText">CIIT College of Innovation and Integrated Technology</h>
 
-                            <p class="formatText">Cosplayer</p>
+                            <p class="formatText">I am currently taking Multimedia course in CIIT College of Innovation and Integrated Technology as a Freshman.</p>
 
                             <h class="nameBrand color sizeText">Arellano University Plaridel Campus Senior Highschool</h>
 
-                            <p class="formatText">• With High Honors 2025</p>
+                             
                             <p class="formatText">• With High Honors 2024</p>
+                            <p class="formatText">• With High Honors 2025</p>
+                            <p class="formatText">• ICT Club Graphic Designer 2025</p>
 
                             `;
     }
@@ -272,14 +265,22 @@ clickBtn6.addEventListener('click', ()=>{
                             
                             <h class="nameBrand color sizeText">Freelance & Illustration</h>
 
-                            <p class="formatText">• Buy and Sell Thrift Shop</p>
-                            <p class="formatText">• Cosplayer</p>
-                            <p class="formatText">• Commission</p>
+                           <p class="formatText">• Freelance digital artist (2019-present)</p>
+                           <p class="formatText">• Freelance character designer (2024-present)</p>
+                            <p class="formatText">• Buy and Sell Thrift Shop Owner (2026)</p>
+
 
 
                             <h class="nameBrand color sizeText">Tiktok Content Creator</h>
 
-                            <p class="formatText">• 25.2k views in Jinx Animation 2026</p>
+                            <p class="formatText">• 25.3k views in Run Rabbit Animation 2026</p>
+                            <p class="formatText">• Posting Alternate Universe (AU)</p>
+
+                             <h class="nameBrand color sizeText">Miscellaneous</h>
+
+                            <p class="formatText">• Cosplayer (2023-present)</p>
+                            <p class="formatText"></p>
+
                             `;
     }
 });
@@ -306,7 +307,7 @@ clickBtn7.addEventListener('click', ()=>{
                                  believe that when she master the art of anatomy. She would definitely can create at purely imagination into live.
                                  Coloring to her is like child's play, I'm quite mesmerize about it even I a painter also lacks some color theory applied.
 
-                                 I'm not glazing but rather speaking the truth solely base in my observations. I've been her friend almost 2 years and I would say
+                                 I'm not glazing, but rather speaking the truth solely base in my observations. I've been her friend almost 2 years and I would say
                                  she holds a lot of promising future. 
 
                             </p>
