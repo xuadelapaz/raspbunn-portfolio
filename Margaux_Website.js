@@ -263,7 +263,7 @@ clickBtn6.addEventListener('click', ()=>{
                             
                             <h class="nameBrand color sizeText">Freelance & Illustration</h>
 
-                           <p class="formatText">• Freelance digital artist since (2019-present)</p>
+                           <p class="formatText">• Freelance digital artist (2019-present)</p>
                            <p class="formatText">• Freelance character designer (2024-present)</p>
                             <p class="formatText">• Buy and Sell Thrift Shop (2026)</p>
                             <p class="formatText">• Cosplayer (2023-present)</p>
@@ -305,7 +305,7 @@ clickBtn7.addEventListener('click', ()=>{
                                  believe that when she master the art of anatomy. She would definitely can create at purely imagination into live.
                                  Coloring to her is like child's play, I'm quite mesmerize about it even I a painter also lacks some color theory applied.
 
-                                 I'm not glazing but rather speaking the truth solely base in my observations. I've been her friend almost 2 years and I would say
+                                 I'm not glazing, but rather speaking the truth solely base in my observations. I've been her friend almost 2 years and I would say
                                  she holds a lot of promising future. 
 
                             </p>
