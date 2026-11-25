@@ -212,9 +212,6 @@ clickBtn4.addEventListener('click', ()=>{
                             <p class="formatText">&emsp;Ibis Paint</p>
                             <p class="formatText">&emsp;Adobe Photoshop</p>
 
-                        
-                            <p class="formatText">• Program :</p>
-                            <p class="formatText">&emsp;Blender</p>
 
                             <h class="nameBrand color sizeText">Video Editing</h>
 
