@@ -239,7 +239,7 @@ clickBtn5.addEventListener('click', ()=>{
 
                             <h class="nameBrand color sizeText">CIIT College of Innovation and Integrated Technology</h>
 
-                            <p class="formatText">I am currently taking Multimedia course in CIIT College of Arts and Technology as a Freshman.</p>
+                            <p class="formatText">I am currently taking Multimedia course in CIIT College of Innovation and Integrated Technology as a Freshman.</p>
 
                             <h class="nameBrand color sizeText">Arellano University Plaridel Campus Senior Highschool</h>
 
