@@ -237,12 +237,12 @@ clickBtn5.addEventListener('click', ()=>{
         clickBtn5.classList.add('openBtn');
         academic.innerHTML = `   
                             
-                            <p class="formatText">I am currently taking Multimedia course in CIIT College of Arts and Technology as Freshman.</p>
+                            
                           
 
                             <h class="nameBrand color sizeText">CIIT College of arts Arts and Technology</h>
 
-                            <p class="formatText">• a member of cosplayer</p>
+                            <p class="formatText">I am currently taking Multimedia course in CIIT College of Arts and Technology as Freshman.</p>
 
                             <h class="nameBrand color sizeText">Arellano University Plaridel Campus Senior Highschool</h>
 
