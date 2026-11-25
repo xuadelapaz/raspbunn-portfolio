@@ -267,7 +267,7 @@ clickBtn6.addEventListener('click', ()=>{
                             <h class="nameBrand color sizeText">Freelance & Illustration</h>
 
                             <p class="formatText">• Buy and Sell Thrift Shop</p>
-                            <p class="formatText">• a member of cosplayer</p>
+                            <p class="formatText">• Cosplayer</p>
 
 
                             <h class="nameBrand color sizeText">Tiktok Content Creator</h>
